@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  
+  
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  
+}
+
+.div1 {
+  
+  flex-basis: auto;
+}
+.div2 {
+  
+  flex-basis: auto;
+
+  margin-left: 3rem; 
+}
+
+.mitten{
+  padding: 3rem;
+  text-align: center;
+  
+  
+}
+button {
+  
+  padding: 1em 3rem;
+  border-radius: 15%;;
+  margin: 1em;
+  
+}
+input{
+  
+  font-size: 3em;
+}
+.bilder{
+  
+  margin: 5rem;
+}
+.bilder img{
+  opacity: 0.5;
+  margin: 3rem;
+  
+  
+}
+
+.bilder img:hover{
+  opacity: 1.0;
+  
+}
+
